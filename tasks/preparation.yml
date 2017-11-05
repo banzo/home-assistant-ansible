@@ -36,6 +36,7 @@
   with_items:
   - appdirs
   - packaging
+  - SQLAlchemy
   when: ansible_distribution == "Debian"
 
 - name: create user
