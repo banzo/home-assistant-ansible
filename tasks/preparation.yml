@@ -37,6 +37,8 @@
   - appdirs
   - packaging
   - SQLAlchemy
+  - xmltodict
+
   when: ansible_distribution == "Debian"
 
 - name: create user
